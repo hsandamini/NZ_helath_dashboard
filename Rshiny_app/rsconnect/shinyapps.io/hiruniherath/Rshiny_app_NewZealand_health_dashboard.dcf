@@ -1,0 +1,12 @@
+name: Rshiny_app_NewZealand_health_dashboard
+title:
+username: hiruniherath
+account: hiruniherath
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 16982218
+bundleId: 11762196
+url: https://hiruniherath.shinyapps.io/Rshiny_app_NewZealand_health_dashboard/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
