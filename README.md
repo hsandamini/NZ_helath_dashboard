@@ -12,13 +12,6 @@ You can access and interact with the live dashboard here:
 * **Epidemiological Tracking:** Dedicated analytics scripts for viewing historical and current virus distribution metrics.
 * **Dynamic Plotting:** Integrated graphics that update instantaneously based on user-selected filtering inputs.
 
-## Technical Framework
-This application is developed in R and requires the following libraries:
-* `shiny` – Core web framework and reactive interface components.
-* `shinydashboard` – Structural administrative layout grids.
-* `tidyverse` – Collection of packages utilized for data cleaning and pipeline mutation.
-* `ggplot2` – Engine used for rendering publication-quality graphics and statistical charts.
-
 ## Local Execution Instructions
 To run this application locally, clone this repository to your machine, open the `medical_stat.Rproj` file in RStudio, and click the **Run App** button inside your Shiny script.
 
