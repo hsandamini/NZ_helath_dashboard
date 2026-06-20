@@ -1,32 +1,27 @@
-# 🏥 R Shiny Dashboard
+# New Zealand Health Dashboard
 
-An interactive R Shiny web application designed to visualize and analyze healthcare data trends. This project provides dynamic visual tools to help researchers and healthcare professionals track medical metrics efficiently.
+An interactive web application built with R Shiny to analyze and visualize public healthcare datasets. This project provides descriptive statistical insights, regional trends, and urban-rural demographic comparisons.
 
-## 🚀 Key Features
-* **Interactive Data Visualization:** Filter statistics dynamically based on regional, urban/rural, or demographic variables.
-* **Urban & Rural Insights:** Compare specific health trends using custom analytical charts (`urbanruralchart.R`).
-* **Automated Data Cleaning:** Built-in R scripts to automatically parse, clean, and format raw medical input logs.
+## Deployment Link
+You can access and interact with the live dashboard here:  
+👉 **[Launch Live Dashboard](https://hiruniherath.shinyapps.io/Rshiny_app_NewZealand_health_dashboard/)**
 
-## 🛠️ Tech Stack & Packages
-This dashboard is entirely built using **R** and the following frameworks:
-* `shiny` - For the interactive web application interface
-* `shinydashboard` - For the structured administrative layout
-* `tidyverse` - For modern data manipulation and cleaning
-* `ggplot2` - For generating custom statistical plots and graphics
+## Primary Features
+* **Demographic Analytics:** Compares health metrics across specific age structures, dependency ratios, and fertility rates.
+* **Geographical Insights:** Distinguishes tracking trends between urban and rural health profiles.
+* **Epidemiological Tracking:** Dedicated analytics scripts for viewing historical and current virus distribution metrics.
+* **Dynamic Plotting:** Integrated graphics that update instantaneously based on user-selected filtering inputs.
 
-## 💻 How to Run This Dashboard Locally
+## Technical Framework
+This application is developed in R and requires the following libraries:
+* `shiny` – Core web framework and reactive interface components.
+* `shinydashboard` – Structural administrative layout grids.
+* `tidyverse` – Collection of packages utilized for data cleaning and pipeline mutation.
+* `ggplot2` – Engine used for rendering publication-quality graphics and statistical charts.
 
-To launch this Shiny application on your local computer, make sure you have **R** and **RStudio** installed, and then follow these simple steps:
+## Local Execution Instructions
+To run this application locally, clone this repository to your machine, open the `medical_stat.Rproj` file in RStudio, and click the **Run App** button inside your Shiny script.
 
-1. Open your **RStudio** console.
-2. Install the necessary library packages by running the following command:
-   ```R
-   install.packages(c("shiny", "shinydashboard", "tidyverse", "ggplot2"))
-   ```
-3. Run the application directly from this GitHub repository using this command:
-   ```R
-   shiny::runGitHub("NZ_helath_dashboard", "hsandamini")
-   ```
 
 ---
-*Created and maintained by [@hsandamini](https://github.com).*
+*Developed and maintained by [Hiruni Sandamini](https://github.com).*
